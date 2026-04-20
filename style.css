@@ -10,16 +10,19 @@
     --clr-card-border: #334155;
     --clr-text-main: #f8fafc;
     --clr-text-muted: #94a3b8;
-    
+
     /* Accents */
-    --clr-accent-1: #3b82f6; /* Blue */
-    --clr-accent-2: #2563eb; /* Darker Blue */
-    --clr-accent-3: #10b981; /* Green */
-    
+    --clr-accent-1: #3b82f6;
+    /* Blue */
+    --clr-accent-2: #2563eb;
+    /* Darker Blue */
+    --clr-accent-3: #10b981;
+    /* Green */
+
     /* Typography */
     --font-heading: 'Inter', sans-serif;
     --font-body: 'Inter', sans-serif;
-    
+
     /* Spacing & Sizes */
     --container-width: 1200px;
     --transition-speed: 0.3s;
@@ -60,7 +63,12 @@ body {
 }
 
 /* --- Typography --- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     font-weight: 700;
     line-height: 1.2;
@@ -145,7 +153,7 @@ ul {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--clr-card-border);
     height: 70px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -264,8 +272,15 @@ ul {
 }
 
 @keyframes scroll {
-    0% { top: 6px; opacity: 1; }
-    100% { top: 18px; opacity: 0; }
+    0% {
+        top: 6px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 18px;
+        opacity: 0;
+    }
 }
 
 .blink {
@@ -274,8 +289,15 @@ ul {
 }
 
 @keyframes blink {
-    0%, 100% { opacity: 0.3; }
-    50% { opacity: 1; }
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
 
 /* --- Section Titles --- */
@@ -339,7 +361,8 @@ section {
 
 /* --- Skills Section --- */
 .skills {
-    background: #0b1120; /* Alternating section background - darker */
+    background: #0b1120;
+    /* Alternating section background - darker */
 }
 
 .skills-grid {
@@ -409,7 +432,7 @@ section {
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 
 .view-btn {
@@ -530,13 +553,14 @@ footer {
 /* --- Responsive Design --- */
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* simple mobile nav exclusion for vanilla */
+        display: none;
+        /* simple mobile nav exclusion for vanilla */
     }
-    
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    
+
     .footer-content {
         flex-direction: column;
         text-align: center;
