@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalit Gentela | Data Visualization Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Interactive Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="subtitle">Hello, I am</p>
+                <h1 class="glitch" data-text="Lalit Gentela">Lalit Gentela</h1>
+                <p class="description">
+                    Master's Student in Business Analytics and AI at Ontario Tech University, Oshawa.<br>
+                    Transforming complex data into compelling visual stories.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">More About Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div><i class="fas fa-chevron-down blink"></i></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-content reveal">
+                <div class="about-card basic-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Journey</h3>
+                    <p>Pursuing a Master's degree in Business Analytics and AI at Ontario Tech University, Oshawa. My
+                        passion lies in extracting insights from complex datasets and making them accessible.</p>
+                </div>
+                <div class="about-card basic-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3>Visualization & Storytelling</h3>
+                    <p>This portfolio is part of my Visualization and Storytelling assignment, showcasing projects
+                        completed throughout the course. I specialize in turning raw data into persuasive visual
+                        narratives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Course <span>Skills</span></h2>
+            </div>
+            <div class="skills-grid reveal">
+                <div class="skill-item">
+                    <h3><i class="fa-solid fa-chart-line"></i> Data Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Flourish</span>
+                        <span class="skill-tag">Datawrapper</span>
+                        <span class="skill-tag">Plotly</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Pandas / Numpy</span>
+                        <span class="skill-tag">Matplotlib / Seaborn</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fa-solid fa-pen-nib"></i> Design & Ideation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Vev</span>
+                        <span class="skill-tag">Miro</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fa-solid fa-book-open"></i> Storytelling Elements</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Storytelling</span>
+                        <span class="skill-tag">Dashboard Design</span>
+                        <span class="skill-tag">UI/UX Principles</span>
+                        <span class="skill-tag">Persuasive Narratives</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+            <div class="portfolio-grid">
+
+                <!-- Project 1: Storyboard -->
+                <div class="project-card basic-card reveal">
+                    <div class="project-info">
+                        <span class="tag">Assignment 1</span>
+                        <h3>Data Storyboard</h3>
+                        <p>A human-centered data storyboard addressing a topical concern. Includes design sketches,
+                            prototypes, and a document showcasing various iterations and design rationale.</p>
+                        <a href="./MBAI-5400G ASSIGNMENT-1 Visualization storytelling - lalit Gentela.pdf"
+                            target="_blank" class="view-btn"><i class="fa-solid fa-eye"></i> View File</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: John Snow Cholera Map -->
+                <div class="project-card basic-card reveal">
+                    <div class="project-info">
+                        <span class="tag">Assignment 2</span>
+                        <h3>Jupyter Notebook Visualization</h3>
+                        <p>Interactive data exploration and visualization using Python within a Jupyter Notebook.</p>
+                        <a href="http://localhost:8888/notebooks/Lalit_Visualization_assignment-2.ipynb" target="_blank"
+                            class="view-btn"><i class="fa-solid fa-folder-open"></i> View File</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Persuasive Infographics -->
+                <div class="project-card basic-card reveal">
+                    <div class="project-info">
+                        <span class="tag">Assignment 3</span>
+                        <h3>Persuasive Infographics</h3>
+                        <p>A persuasive infographic focused on a topical news theme. Showcases three successive stages
+                            of development, from initial hand-sketched concepts to the final data-driven message.</p>
+                        <a href="./Lalit Assignment -3 Infographic.pdf" target="_blank" class="view-btn"><i
+                                class="fa-solid fa-eye"></i> View File</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: The Unequal Algorithm -->
+                <div class="project-card basic-card reveal">
+                    <div class="project-info">
+                        <span class="tag">Assignment 4</span>
+                        <h3>The Unequal Algorithm</h3>
+                        <p>A collaborative, human-centered data storytelling project leveraging real-world data.
+                            Involves audience identification, visual data exploration, and an asynchronous presentation.
+                        </p>
+                        <a href="https://thepriceofopportunity.my.canva.site/the-unequal-algorithm" target="_blank" class="view-btn"><i class="fa-solid fa-link"></i> Visit Website</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Lalit Gentela</h3>
+                <p>Master of Business Analytics & AI<br>Ontario Tech University</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/naga-venkata-sai-lalit-gentela-750b863ab/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lalitgentela"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:nagavenkatasailalit.gentela@ontariotechu.net"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Lalit Gentela. Visualization & Storytelling Portfolio.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
