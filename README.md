@@ -11,4 +11,6 @@ Highlight my readiness for professional or academic opportunities.
 
 Throughout this course, I have developed stronger skills in organization, critical thinking, and presentation. Revisiting and refining previous work allowed me to improve both the technical and conceptual quality of my projects. This portfolio reflects not only my final outputs but also my learning process and growth.
 
+Assignment-4 URL link: https://thepriceofopportunity.my.canva.site/the-unequal-algorithm
+
 This is the web URL: https://lalitgentela.github.io/Portfolio/
